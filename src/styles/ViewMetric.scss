@@ -1,0 +1,32 @@
+.view-metric-container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    margin-left: 1.5rem;
+  }
+  .error-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .error-message {
+    color: #F93154;
+    font-size: 1.4rem;
+  }
+
+  .data-table {
+    margin-top: 2rem;
+  }
+}

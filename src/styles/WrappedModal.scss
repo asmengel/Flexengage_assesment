@@ -1,0 +1,44 @@
+.modal {
+  &-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+    border-radius: 4px;
+
+    .btn {
+      margin-right: 1rem;
+      &-neg {
+        background-color: #F93154;
+        &:hover {
+          background-color: rgba(#F93154, .8);
+        }
+      }
+      &-pos {
+        background-color: #39C0ED;
+        &:hover {
+          background-color: rgba(#39C0ED, .8);
+        }
+      }
+    }
+  }
+  &-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+  }
+
+  &-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}

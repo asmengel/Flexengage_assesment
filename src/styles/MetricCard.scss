@@ -1,0 +1,20 @@
+.card-body {
+  margin: 1rem;
+  padding: 1rem;
+  min-width: 235px;
+
+  .btn {
+    &-neg {
+      background-color: #F93154;
+      &:hover {
+        background-color: rgba(#F93154, .8);
+      }
+    }
+    &-pos {
+      background-color: #39C0ED;
+      &:hover {
+        background-color: rgba(#39C0ED, .8);
+      }
+    }
+  }
+}
